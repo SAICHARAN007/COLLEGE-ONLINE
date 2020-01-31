@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@string/scrollview"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/relative1">
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="match_parent"
+        android:layout_height="265dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/home_page" />
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image1"
+        android:layout_marginTop="9dp"
+        android:text="@string/textview1" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="match_parent"
+        android:layout_height="238dp"
+        android:layout_below="@+id/textview1"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/carpediem" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="match_parent"
+        android:layout_height="238dp"
+        android:layout_below="@+id/image2"
+        android:layout_marginTop="10dp"
+        android:text="@string/textview2" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="match_parent"
+        android:layout_height="221dp"
+        android:layout_below="@+id/textview2"
+        android:layout_marginTop="-166dp"
+        android:src="@drawable/shruthi" />
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image3"
+        android:layout_marginTop="13dp"
+        android:text="@string/textview3" />
+
+    <ImageView
+        android:id="@+id/image4"
+        android:layout_width="match_parent"
+        android:layout_height="379dp"
+        android:layout_below="@+id/textview3"
+        android:layout_marginTop="-32dp"
+        android:src="@drawable/sudhee" />
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image4"
+        android:layout_marginTop="-26dp"
+        android:text="@string/textview4" />
+  </RelativeLayout>
+</ScrollView>

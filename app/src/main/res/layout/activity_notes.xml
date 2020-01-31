@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@string/scrollview"
+    android:scrollbarAlwaysDrawVerticalTrack="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relative1">
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="match_parent"
+            android:layout_height="214dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/cn_sub" />
+
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="match_parent"
+            android:layout_height="241dp"
+            android:layout_below="@+id/image1"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/dmdw_sub" />
+
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="match_parent"
+            android:layout_height="241dp"
+            android:layout_below="@+id/image2"
+            android:layout_marginTop="6dp"
+            android:src="@drawable/ajp_sub" />
+
+        <ImageView
+            android:id="@+id/image4"
+            android:layout_width="match_parent"
+            android:layout_height="241dp"
+            android:layout_below="@+id/image3"
+            android:layout_marginTop="8dp"
+            android:src="@drawable/st_sub" />
+
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="match_parent"
+            android:layout_height="241dp"
+            android:layout_below="@+id/image4"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/ann_sub" />
+
+        <ImageView
+            android:id="@+id/image6"
+            android:layout_width="match_parent"
+            android:layout_height="241dp"
+            android:layout_below="@+id/image5"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/spm_sub" />
+
+    </RelativeLayout>
+</ScrollView>

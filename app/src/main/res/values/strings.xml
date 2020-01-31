@@ -1,0 +1,46 @@
+<resources>
+  <string name="app_name">CollegeOnline</string>
+  <!-- Strings related to login -->
+  <string name="prompt_email">Email</string>
+  <string name="prompt_password">Password (optional)</string>
+  <string name="action_sign_in">Sign in or register</string>
+  <string name="action_sign_in_short">Sign in</string>
+  <string name="error_invalid_email">This email address is invalid</string>
+  <string name="error_invalid_password">This password is too short</string>
+  <string name="error_incorrect_password">This password is incorrect</string>
+  <string name="error_field_required">This field is required</string>
+  <string name="permission_rationale">"Contacts permissions are needed for providing email
+    completions."
+  </string>
+  <string name="title_activity_home">Home</string>
+  <string name="navigation_drawer_open">Open navigation drawer</string>
+  <string name="navigation_drawer_close">Close navigation drawer</string>
+  <string name="nav_header_title">Android Studio</string>
+  <string name="nav_header_subtitle">android.studio@android.com</string>
+  <string name="nav_header_desc">Navigation header</string>
+  <string name="action_settings">Settings</string>
+    <string name="scrollview">scrollview</string>
+
+  <string name="image1">content_image1</string>
+  <string name="image2">content_image2</string>
+  <string name="image3">content_image3</string>
+  <string name="image4">content_image4</string>
+  <string name="textview1">   Chaitanya Bharathi Institute of Technology is one of the premier Engineering Colleges in the self-financing category in Telangana. It has been accredited five times in 1998, 2004, 2008, 2013 and 2017 by NBA(AICTE) and accredited second time by NAAC(UGC) A Grade in 2017. It is also the first ISO 9001-2015 certified Engineering Institute of AP and Telangana. The grants received from AICTE,UGC,DST,NSTL,DRDO and other Indusrties are worth about Rs. 16.0 crores. The college offers 9 UG and 10 PG programmes.
+  VISION    : To be centre of excellence in technical education and research
+MISSION : To address the emerging needs through quality technical education and advanced research
+  _____________________________________________________________</string>>
+  <string name="textview2">   CarpediematCBIT Biennial fest of CBIT, Hyderabad. Habitual riser from the ashes. All round badass.
+  _____________________________________________________________</string>
+  <string name="textview3">CBIT, being one of the most respected colleges in the twin cities has its most recognised club which is CBCC. As the name of the club clearly explains the significance of the same, it’s an amalgamation of arts. From music and dance to art and cultural events, it is the storehouse of the talents that a person can showcase with confidence. Since, it’s the oldest club of the institution, it has carved a niche for itself as the official and most fun club of the college. With years, it has evolved and is now back with its enticing event Shruthi.
+  _____________________________________________________________</string>
+  <string name="textview4">CBIT is organizing SUDHEE, a National Technical Student Fest
+    _____________________<b>CBIT, GANDIPET</b>___________________</string>
+  <string name="relative1">relative1</string>
+  <string name="relative2">relative2</string>
+  <string name="relative3">relative3</string>
+  <string name="relative4">relative4</string>
+    <string name="title_activity_examdates">examdates</string>
+    <string name="title_activity_notes">notes</string>
+  <string name="title_activity_course">courses</string>
+    <string name="title_activity_courses">courses</string>
+</resources>
